@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wearable Demo</string>
+    <string name="title_section1">Main page</string>
+    <string name="title_section2">History</string>
+    <string name="title_section3"> ---- per min</string>
+    <string name="title_section4"> ---- per day</string>
+    <string name="title_section5"> ---- pie chart</string>
+    <string name="title_section6">Debug info</string>
+    <string name="title_section7">Device info</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Action</string>
+    <string name="action_settings">User Profile</string>
+    <string name="action_scan_connect">Scan &amp; Connect</string>
+    <string name="action_disconnect">Disconnect</string>
+    <string name="action_test">test</string>
+    <string name="pick_date">Pick a Date</string>
+    <string name="action_read">read</string>
+    <string name="action_about">About</string>
+
+</resources>

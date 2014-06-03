@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.primax.wearabledemo2.MainActivity$PlaceholderFragment" >
+
+    <TextView 
+    android:id="@+id/tv_pie"
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content" 
+    android:textStyle="bold"
+    android:gravity="center"
+    android:singleLine="true"
+    />
+    
+    <RelativeLayout
+        android:id="@+id/relativeLayout_pie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="1" >
+        
+	</RelativeLayout>
+	
+    <RelativeLayout
+        android:id="@+id/relativeLayout_pie2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="1" >
+        
+	</RelativeLayout>
+	
+    <Button
+        android:id="@+id/button_pick_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="showDatePickerDialog"
+        android:text="@string/pick_date" />
+	
+<!--     <RelativeLayout
+        android:id="@+id/relativeLayout_history22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="1" >
+        
+    </RelativeLayout>
+        
+    <RelativeLayout
+	    android:id="@+id/relativeLayout_history23"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:layout_weight="1" >
+        
+	</RelativeLayout> -->
+	
+</LinearLayout>
